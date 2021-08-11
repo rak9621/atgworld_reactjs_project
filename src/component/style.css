@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+}
+
+.nav{
+ 
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    
+}
+.logoimg{
+
+  height: 5vh;
+  margin-top: 10px;
+ 
+  
+}
+
+
+.searchbar{
+
+width: 30vw;
+height: 6vh;
+
+
+
+background: #F2F2F2;
+border-radius: 21px;
+
+font-family: "IBM Plex Sans";
+ font-size: 1.3vw;
+ margin-top: 1rem;
+ padding-top: 1.5vh;
+ padding-left:3%;
+
+
+
+}
+
+.txt{
+
+    margin-top:3vh;
+    font-size: 1.3vw;
+
+}
+
+.txtimg{
+    width: 18rem;
+    padding: 0.5rem;
+}
+.txtimg img{
+border-radius: 25rem;
+
+float: left;
+
+}
+.txtimg h5{
+    padding-left:2rem;
+    padding-top:1rem;
+}
+
+
+.bodyitem{
+
+    margin-top: 2rem;
+    /* background-image: url("./Capture.PNG"); */
+    background-image: url("https://picsum.photos/1440/500");
+    
+} 
+.bodyitem img{
+
+    width: 100%;
+    height: 75vh;
+
+
+    
+}
+
+
+.layout{
+    width: 100%;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.568);
+    padding-top: 15rem;
+    padding-left: 5rem;
+    font-size: 30px;
+    color: #F2F2F2;
+
+}
+
+
+
+
+.card{
+
+width: 54vw;
+height: 81vh;
+border: 1px solid #E0E0E0;
+
+margin-left:5rem;
+margin-top: 5rem;
+
+}
+
+.content1{
+
+    height: 10vh;
+    width:48vw;
+    
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 134.17%;
+  margin-top: 2rem;
+}
+
+.dot3{
+
+position: absolute;
+ right: 2rem;
+ top: 16rem;
+
+}
+
+.content2{
+
+margin-top: 1rem;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 1.3vw;
+line-height: 134.17%;
+
+}
+
+
+.cardbottom {
+margin-top: 2rem;
+display: flex;
+justify-content: space-between;
+
+}
+
+.bottomimg img{
+
+    border-radius: 24px
+
+}
+
+
+.username{
+
+    position: relative;
+    right: 9rem;
+}
+.share{
+
+position: relative;
+
+right: 3rem;
+}
+
+
+.aftercont1{
+
+display: flex;
+font-weight:100;
+
+
+}
+
+.datetime{
+
+position: relative;
+padding-left: 3rem;
+padding-right: 10rem;
+}
+
+.tab{
+
+
+width: 652px;
+height: 38px;
+margin-left: 1rem;
+
+background: #FFFFFF;
+border: 0.7px solid #A9AEB8;
+box-sizing: border-box;
+border-radius: 8px; 
+text-align: center;
+
+}
+
+.toolbar{
+
+margin-left: 9rem;
+
+
+}
+.toolbarcont ul li{
+
+    margin-top: 0.8rem;
+    display: inline-block;
+    padding: 1rem;
+
+}
+
+.public{
+
+    
+     float:right;  
+margin-top:-4rem;
+  margin-right: 6rem;
+  font-size: 2.5vmin;
+  font-family: sans-serif;
+
+}
+
+button{
+
+  border: 0.2px solid black;  
+  width: 8vw;
+}
+.selector{
+
+    margin-right:2rem;
+}
+
+.adduser{
+
+    background-color: #2F6CE5;
+
+}
+
+.aside{
+
+display: block;
+float: right;
+margin-right: 5rem;
+width: 25vw;
+height: 30vh;
+margin-top: 2rem;
+
+}
+
+.asidecont{
+
+display: flex;
+justify-content: space-between;
+
+}
+
+.asidebelow{
+
+display: flex;
+
+right: 6rem;
+
+
+margin: 1rem;
+
+
+}
+
+.asideimg{
+
+    border-radius: 25rem;
+    
+}
+.asidebutton{
+    
+    margin-left: 5rem;
+  margin-top: 0.5rem;
+
+
+}
+.asidebelow button{
+
+    border-radius: 25rem;
+}
+.asidecontainer{
+  
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 3.5rem;
+    top: 48rem;
+}
+
+
+
+.popca{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: 2;
+   width: 100%;
+   height: 100%;
+
+
+
+background-color: rgba(0, 0, 0, 0.349);
+
+}
+
+.acform{
+display: flex;
+margin:auto;
+margin-top: 2rem;
+height: 75vh;
+width: 50vw;
+z-index: 5;
+background-color: #FFFFFF;
+
+
+}
+.acformU{
+
+    position: absolute;
+width: 50vw;
+height: 7vh;
+left: 19.5rem;
+top: 3.59rem;
+background: #EFFFF4;
+border-radius: 8px 8px 0px 0px;
+color: #008A45;
+
+text-align: center;
+padding-top: 0.5rem;
+}
+
+
+
+.acformL{
+
+height: 67vh;
+width: 25vw;
+margin-top: 2.9rem;
+margin-left: 0;
+
+
+}
+.acformL h5{
+
+     
+     padding-left: 3rem;
+     padding-top: 2rem;
+}
+.acformR{
+    height: 67vh;
+    width: 25vw;
+
+    margin-top: 2.9rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
+     
+    background-color: #EFFFF4;
+}
+
+.acformR img{
+
+    height: 21rem;
+    width: 17rem;
+    background-color: #EFFFF4;
+
+
+}
+
+.createform input{
+
+    margin-left: 1rem;
+    background: #F7F8FA;
+    width: 300px;
+     height: 46px;
+     color: #8A8A8A;
+     border: 1px solid #D9D9DB;
+     text-indent: 1rem;
+
+
+}
+
+.createAcc{
+
+    
+    width: 300px;
+    height: 30px;
+
+    
+    background: #2F6CE5;
+    border-radius: 20px;
+
+    color: white;
+    text-align: center;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+
+}
+
+.signup{
+    width: 300px;
+    height: 30px;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+ border: 1px solid black;
+ text-indent: 2rem;
+ 
+}
+
+.googlelogin{
+    width: 300px;
+    height: 30px;
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+    border: 1px solid black;
+    text-indent: 2rem;
+}
+
+.googlelogin i{
+    color: orange;
+}
+
+.closebutton{
+    position: absolute;
+     width: 20px;
+     height: 15px;
+     border: none;
+     background-color: rgba(0, 0, 0, 0.075);
+     right: 20rem;
+     top: 0.6rem;
+
+}
+
+.closebutton i{
+
+border-radius: 25rem;
+
+}
